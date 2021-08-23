@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: white;
+}
+#header > h2{
+    font-size: 2.8rem;
+}
+#header > p{
+    font-size: 1.2rem;
+}
+#enterTxt, #dispTrans{
+    width: 80%;
+    margin-left: 125px;
+    margin-top: 56px;
+    height: 75px;
+    padding-right: 8px;
+    padding-top: 8px;
+}
+#enterTxt::placeholder, #dispTrans::placeholder{
+    margin-left: 45px;
+}
+
+#btnTrans{
+    text-align: center;
+}
+#trans{
+    margin-top: 8px;
+    width: 10%;
+    height: 35px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-right: 1%;
+}
+#trans:hover{
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+#dispTrans{
+    margin-top: 32px;
+}
+#fun, li, #test{
+    text-align: center;
+}
+/** **/
+:root{
+    --primary-color:#1D4ED8;
+    --secondary-color:#60A5FA;
+    --ow-gray:#F3F4F6;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin:auto;
+
+}
+ul{
+    text-align: right;
+    
+    
+}
+.item-list-inline{
+    display: inline;
+    padding-right: 1.25rem ;
+    text-align: right;
+}
+.navLinks{
+    text-decoration: none;
+    color:var(--primary-color);
+    padding:0.5rem 1rem;
+    color:white
+}
+.footer{
+    background-color: var(--secondary-color);
+    padding:0.5rem 1.5rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius:1rem ;
+
+}
+.footer .social-links{
+    padding-inline-start:0px ;
+    text-align: center;
+    padding: 0.5rem;
+}
+
